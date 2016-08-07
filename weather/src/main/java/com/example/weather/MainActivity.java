@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             mDrawerLayout.closeDrawer(GravityCompat.START);
         }else{
             super.onBackPressed();
+
         }
     }
 
